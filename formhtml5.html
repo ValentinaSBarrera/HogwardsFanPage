@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML - CSS</title>
+    <script>
+        function updateTextInput (val){
+            documet.getElementById ("textInput").value = val;
+        }
+    </script>
+    
+</head>
+<body>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cinzel+Decorative&family=Codystar&family=Covered+By+Your+Grace&family=Explora&family=Faster+One&family=Fleur+De+Leah&family=Fredericka+the+Great&family=Grey+Qo&family=Henny+Penny&family=Megrim&family=Metal+Mania&family=Mountains+of+Christmas&family=Poiret+One&family=Reenie+Beanie&family=Shojumaru&family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
+    <div id="container2">
+        <header>
+            <img src="img/Header2.jpg" alt="HTML5">
+        </header>
+        <div id="principal">
+            <nav>
+                <ul>
+                    <a href="index.html"><li> Hogwards</li></a>
+                    <a href="parrafo.html"><li> Casas de Hogwards</li></a>
+                    <a href="enlaces.html"><li>Admisión Hogwards</li></a>
+                    <a href="tablas.html"><li>Tablas</li></a>
+                    <a href="listas.html"><li>Hechizos</li></a>
+                    <a href="formularios.html"><li>Registro Hogwarts</li></a>
+                    <a href="formhtml5.html"><li>Inscripción T.I.M.O</li></a> 
+                    <a href="multimedia.html"><li>Hegwid Theme</li></a>
+                </ul>
+            </nav>
+            <div id="contenido">
+                <div id="formhtml5">
+                     <h1 class="titulo">Inscripción T.I.M.O</h1>
+                        <form action="destino.php" method="post" id="formmoderno">
+                            <fieldset id="formvariado" >
+                                <legend>Registro</legend>
+                                    <p>Email <br><input type="email" name="email" id=""></p>
+                                    <p>URL <br> <input type="url" name="url" id=""></p>
+                                    <p>Telefono <br> <input type="tel" name="telefono" id=""></p>
+                                    <p>Hora <br> <input type="time" name="hora" id=""></p>
+                                    <p>Fecha <br> <input type="date" name="fecha" id=""></p>
+                                    <p>Mes <br> <input type="month" name="" id=""> </p>
+                                    <p>Semana <br> <input type="week" name="Semana" id=""></p>
+                                    <p>Fecha y hora <br> <input type="datetime-local" name="Fecha y Hora" id=""></p>
+                                    <p>Numero de Optativas <br> <input type="number" name="Numero" step="2" min="2" max="10" id=""></p>
+                                    <p>Rango de Magia <br><input type="range" name="Rango" step="2" min="2" max="50"  
+                                        onchange="updateTextInput (this.value);"/> <br>
+                                        <input type="text" value="" id="textInput">
+                                    </p>
+                                    <p>Color <br> <input type="color" name="Color" id=""> </p>
+                                    <p> <input type="submit" value="Enviar" class="boton"></p>
+                            </fieldset>
+                        </form>
+
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>
+         Developed by Valentina Santiago Barrera - &copy; 2021 
+        </footer>
+    </div>
+</body>
+</html>
