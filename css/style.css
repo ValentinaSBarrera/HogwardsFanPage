@@ -725,7 +725,7 @@ dt{
 
 span {
     display: inline-block;
-    animation: smoky 4s 2s both;
+    animation: smoky 4s 2s  both;
     animation-direction: reverse;
   
   }
