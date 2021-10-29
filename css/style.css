@@ -16,18 +16,7 @@ body {
     background-repeat: no-repeat;
 
 }
-#container2 {
-    width: 90%;
-    margin: 0 auto;
-    box-shadow: 0px 0px 10px grey;
-    background-color: #d3ccc2;
-    border-style: outset;
-    border-width: 8px;
-    border-color: #bdb4ae;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
 
-}
 
 header img {
  width: 100%;
