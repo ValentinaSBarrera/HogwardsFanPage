@@ -543,7 +543,7 @@ textarea{
     box-shadow: 0 4px ;
     transform: translateY(4px);
     font-style: italic;
-  border-style: outset;
+    border-style: inset;
     border-width: 3px;
     border-color: rgb(182, 182, 182);
 }
