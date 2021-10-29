@@ -363,7 +363,7 @@ fieldset {
     border-width: 2px;
     border-color: rgb(182, 182, 182);
     background-image: url(/img/pergamino.png);
-    background-color: transparent;
+    
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -377,7 +377,7 @@ border-width: 2px;
 border-color: rgb(182, 182, 182);
 background-image: url(/img/pergamino.png);
 background-repeat: no-repeat;
-background-color: transparent;
+
 background-size: 100% 100%;
 
 }
