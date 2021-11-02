@@ -739,10 +739,11 @@ dt{
 
 span {
     display: inline-block;
-    animation: smoky 4s 5s  both;
+    animation: smoky  both;
     animation-direction: reverse;
-    animation-delay: 5s;
-  
+    animation-delay: 1s;
+    animation-duration: 10s, 15s, 130ms
+   
   }
   
   span:nth-child(even){
