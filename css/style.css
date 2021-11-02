@@ -52,6 +52,7 @@ footer {
     justify-content: center;
     align-items: center;
     text-shadow: 2px -2px black, 4px -4px  rgb(68, 65, 65) ;
+    
 }
 .cb {
     clear: both;
@@ -210,17 +211,32 @@ a{
 
 #Tablas {
     text-align: center;
-    font-family: Copperplate, Papyrus, fantasy;
-    font-style: italic;
-    color: darkblue ; 
+    font-family: 'Cinzel Decorative', cursive;
+    color: black ; 
+    font-size: 23px;
+    padding-top: none;
+
+}
+#reliquias table{
+    margin: 0 auto;
     font-size: 25px;
-    text-align:center;
+    color: black;
+}
+#reliquias th{
+    background-color: #090b07;
+    color: white;
+}
+#reliquias td{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
 }
 #tablauno table{
-    width: 60%;
     margin: 0 auto;
-    font-size: 22px;
+    font-size: 12px;
     color: black;
+  float: left;
 }
 
 #tablauno th{
@@ -238,10 +254,10 @@ a{
 }
 
 #tablados table{
-    width: 60%;
     margin: 0 auto;
-    font-size: 22px;
+    font-size: 12px;
     color: black;
+    float: left;
 }
 
 #tablados th{
@@ -260,11 +276,11 @@ a{
 }
 
 #tablatres table{
-    width: 60%;
     margin: 0 auto;
-    font-size: 22px;
+    font-size: 12px;
     color: black;
-    }
+    float: left;
+}
 
 #par{
     background-color: #161f4a;
@@ -281,10 +297,13 @@ a{
 }
 
 #tablahorario table{
-    width: 90%;
     margin: 0 auto;
-    font-size: 22px;
+    font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
+    height: 10%;
+}
+#textotablahorario{
+    text-align: justify;
 }
 
 #exterior{
@@ -293,7 +312,7 @@ a{
 }
 
 #s1dam{
-    font-size: 26px;
+    font-size: 10px;
     background-color: #f0f0f0;
     color: #000000;
 }
@@ -812,4 +831,12 @@ span {
     list-style-position: inside ;
    text-align: justify; 
    list-style-type: lower-greek;
+}
+#tutorial3{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 12px;
+    text-align:left;
+    float: left;
+    margin: 0 auto;
+    text-shadow: none;
 }
