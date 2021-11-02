@@ -499,10 +499,16 @@ input[type=datetime-local]{
 input[type=range]{
     border: none;
     border-bottom: 2px solid black;
-    width: 40%;
+    width: 25%;
     box-shadow:  0 0 15px gray;
     border-style: outset;
     border-width: 8px;
+    border-color: rgb(182, 182, 182);
+}
+input[type=color]{
+    border: none;
+    border-bottom: 2px solid black;
+    width: 30%;
     border-color: rgb(182, 182, 182);
 }
 
