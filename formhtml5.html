@@ -6,11 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Inscripción T.I.M.O</title>
-    <script>
-        function updateTextInput(val){
-            document.getElementById("textinput").value=val;
-        }
-    </script>
     
 </head>
 <body>
@@ -48,7 +43,7 @@
                                     <p>Numero de Optativas <br> <input type="number" name="Numero" step="2" min="2" max="10" id=""></p>
                                     <p>Rango de Magia <br> <input type="range" name="rango" step="5" min="5" max="50"
                                         onchange="updateTextInput(this.value);"/> <br>
-                                                      <input type="text" id="TextInput" value="">
+                                                      <input type="text" id="textinput" value="">
                                                     </p>
                                     <p>Semana en la que Quieres Recibir tus Notas <br> <input type="week" name="Semana" id=""></p>
                                     <p>Color Favorito <br> <input type="color" name="Color" id=""> </p>
