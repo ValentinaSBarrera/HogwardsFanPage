@@ -747,12 +747,13 @@ dt{
 }
 #formhtml5 {
     text-align: center;
-    font-family: 'Metal Mania', cursive;
+    font-family: 'Cinzel Decorative', cursive;
     color: black ; 
-    font-size: 30px;
+    font-size: 20px;
     text-align:center;
     padding-top: none;
     margin: 0 auto;
+    font-weight: bold;
     
 } 
 
