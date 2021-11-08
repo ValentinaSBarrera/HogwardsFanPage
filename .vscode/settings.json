@@ -1,5 +1,6 @@
 {
     "githubPullRequests.remotes": [
         "master"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
