@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Inscripción T.I.M.O</title>
     <script>
-        function updateTextInput (val){
-            documet.getElementById ("textInput").value = val;
+        function updateTextInput(val){
+            document.getElementById("textinput").value=val;
         }
     </script>
     
 </head>
 <body>
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cinzel+Decorative&family=Codystar&family=Covered+By+Your+Grace&family=Explora&family=Faster+One&family=Fleur+De+Leah&family=Fredericka+the+Great&family=Grey+Qo&family=Henny+Penny&family=Megrim&family=Metal+Mania&family=Mountains+of+Christmas&family=Poiret+One&family=Reenie+Beanie&family=Shojumaru&family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cinzel+Decorative&family=Codystar&family=Covered+By+Your+Grace&family=Explora&family=Faster+One&family=Fleur+De+Leah&family=Fredericka+the+Great&family=Grey+Qo&family=Henny+Penny&family=Megrim&family=Metal+Mania&family=Mountains+of+Christmas&family=Open+Sans+Condensed:wght@300&family=Poiret+One&family=Reenie+Beanie&family=Shojumaru&family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
     <div id="container2">
         <header>
             <img src="img/Header2.jpg" alt="HTML5">
@@ -39,21 +39,22 @@
                             <fieldset id="formvariado" >
                                 <legend>Registro</legend>
                                     <p>Email <br><input type="email" name="email" id=""></p>
-                                    <p>URL <br> <input type="url" name="url" id=""></p>
+                                    <p>Link de tu Admisión para el Examen <br> <input type="url" name="url" id=""></p>
                                     <p>Telefono <br> <input type="tel" name="telefono" id=""></p>
-                                    <p>Hora <br> <input type="time" name="hora" id=""></p>
-                                    <p>Fecha <br> <input type="date" name="fecha" id=""></p>
-                                    <p>Mes <br> <input type="month" name="" id=""> </p>
-                                    <p>Semana <br> <input type="week" name="Semana" id=""></p>
-                                    <p>Fecha y hora <br> <input type="datetime-local" name="Fecha y Hora" id=""></p>
+                                    <p>Hora de Inicio de Tu Examen <br> <input type="time" name="hora" id=""></p>
+                                    <p>Fecha en que finalizo la Escuela de Magia <br> <input type="date" name="fecha" id=""></p>
+                                    <p>Mes y Año de Nacimiento <br> <input type="month" name="" id=""> </p>
+                                    <p>Fecha y hora en la que haras tu Examen <br> <input type="datetime-local" name="Fecha y Hora" id=""></p>
                                     <p>Numero de Optativas <br> <input type="number" name="Numero" step="2" min="2" max="10" id=""></p>
                                     <p>Rango de Magia <br> <input type="range" name="rango" step="5" min="5" max="50"
-                                                        onchange="updateTextInput(this.value);" /> <br>
-                                                      <input type="text" id="textInput" value="">
+                                        onchange="updateTextInput(this.value);"/> <br>
+                                                      <input type="text" id="textinput" value="">
                                                     </p>
-                                    <p>Color <br> <input type="color" name="Color" id=""> </p>
+                                    <p>Semana en la que Quieres Recibir tus Notas <br> <input type="week" name="Semana" id=""></p>
+                                    <p>Color Favorito <br> <input type="color" name="Color" id=""> </p>
                                     <p> <input type="submit" value="Enviar" class="boton"></p>
-                            </fieldset>
+                                </fieldset>
+
                         </form>
 
             </div>
